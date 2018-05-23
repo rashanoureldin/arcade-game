@@ -23,9 +23,9 @@ Enemy.prototype.update = function(dt) {
         this.y = (getRandomPosition())*70;
     };
 
-    if((Player.x < this.x + 40 && Player.x + 40 > this.x) && (Player.y < this.y + 60 && 60 + Player.y > this.y) ){
-        Player.x = 200;
-        Player.y = 400;
+    if((player.x < this.x + 40 && player.x + 40 > this.x) && (player.y < this.y + 60 && 60 + player.y > this.y) ){
+        player.x = 200;
+        player.y = 400;
     };
     
 };
